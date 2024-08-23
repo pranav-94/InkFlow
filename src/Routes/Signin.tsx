@@ -14,7 +14,7 @@ const Navigate = useNavigate()
 const create = "Sign In to Continue"
 const already = "Don't have an accout?"
 const to = "Sign-Up"
-const where = "SignUp"
+const where = ""
 const apiUrl = import.meta.env.VITE_BACKEND_API_URL
 
 const handleClick=async()=>{
