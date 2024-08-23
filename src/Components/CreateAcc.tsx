@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom"
 
-const CreateAcc = ({create,already,where,to})=>{
+type createAccProps = {
+   create: string,
+   already: string,
+   where: string,
+   to: string
+}
+
+const CreateAcc:React.FC<createAccProps> = ({create,already,where,to})=>{
     return(
         <>
         <div>
