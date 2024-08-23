@@ -1,6 +1,6 @@
 import axios from "axios"
 import {useState} from 'react'
-import { useLocation, useNavigate } from "react-router-dom"
+import {  useNavigate } from "react-router-dom"
 import Navbar from "../Components/Navbar"
 
 const UpdateBlog = ()=>{
