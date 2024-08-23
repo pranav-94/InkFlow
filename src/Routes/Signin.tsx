@@ -41,11 +41,11 @@ const handleClick=async()=>{
          <CreateAcc create={create} already={already} where={where} to={to}/>
         <div className="flex flex-col w-[50%] h-[220px]  justify-evenly">
             <p className="font-semibold">Email</p>
-           <input className="outline-none border-[1px] rounded-md border-slate-500 h-[35px]" type="text" onChange={e=>{
+           <input placeholder="sasuke@mail.com" className="outline-none border-[1px] rounded-md border-slate-500 h-[35px]" type="text" onChange={e=>{
             setEmail(e.target.value)
            }} />
            <p className="font-semibold">Password</p>
-           <input className="outline-none border-[1px] rounded-md border-slate-500 h-[35px]" type="text" onChange={e=>{
+           <input placeholder="sasuke@#" className="outline-none border-[1px] rounded-md border-slate-500 h-[35px]" type="text" onChange={e=>{
             setPassword(e.target.value)
            }} />
 
