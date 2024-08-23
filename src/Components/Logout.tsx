@@ -6,7 +6,7 @@ const Logout = ()=>{
 
 const handleClick=()=>{
     localStorage.removeItem('token')
-    navigate('/signUp')
+    navigate('/')
 }
 
     return(
