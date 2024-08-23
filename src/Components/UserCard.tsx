@@ -1,4 +1,9 @@
-const UserCard = ({name,bio})=>{
+type userTypeCard = {
+    name: string,
+    bio: string
+}
+
+const UserCard:React.FC<userTypeCard> = ({name,bio})=>{
     return(
         <>
            <div>

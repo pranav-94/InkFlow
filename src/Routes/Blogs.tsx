@@ -44,7 +44,7 @@ useEffect(()=>{
         Loading === true? <Skeleton/> : 
         <div className='w-[100%] flex flex-col items-center'>
             {
-                blogData.map((item)=>{
+                blogData.map((item:any)=>{
                     return <div className='cursor-pointer   mt-5 mb-3 w-[85%] md:w-[60%] border-b-[3px] border-b-slate-300' onClick={()=>{
                         navigate(`/blog/${item.id}`)
                     }}>

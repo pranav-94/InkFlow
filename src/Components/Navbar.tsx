@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import Logout from "./Logout"
+// import Logout from "./Logout"
 import { useState } from "react"
 import SettingsCard from "./SettingsComp"
 

@@ -58,7 +58,7 @@ const Blog = ()=>{
                        navigate('/updateBlog')
                       }} className="bg-slate-800 w-[150px] h-[40px] justify-center items-center text-white rounded-md mr-3 mt-4 ">Update</button>
                       <button className="bg-slate-800 w-[150px] h-[40px] justify-center items-center text-white rounded-md" onClick={async()=>{
-                         const res = await axios.delete('https://server.ppranavvvvv918.workers.dev/api/blog/deleteBlog',{
+                          await axios.delete('https://server.ppranavvvvv918.workers.dev/api/blog/deleteBlog',{
                           headers: {
                             token: token
                           },

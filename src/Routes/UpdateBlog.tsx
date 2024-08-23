@@ -8,7 +8,7 @@ const UpdateBlog = ()=>{
     const token = localStorage.getItem('token')
     const [title,setTitle] = useState("")
     const [content,setContent] = useState("")
-    const location = useLocation()
+    // const location = useLocation()
     const navigate = useNavigate()
     const apiUrl = import.meta.env.VITE_BACKEND_API_URL
 
