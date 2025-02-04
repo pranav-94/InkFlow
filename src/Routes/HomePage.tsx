@@ -1,4 +1,3 @@
-import { GithubIcon } from "lucide-react";
 import { Button } from "@/Components/ui/button";
 import { useNavigate } from "react-router-dom";
 
@@ -26,8 +25,10 @@ export default function HomePage() {
             <span className="ml-2 text-xl font-bold">InkFlow</span>
          </a>
           <div className="flex items-center space-x-2">
-            <Button variant="ghost" className="text-sm">
-              Sign In
+            <Button onClick={()=>{
+                navigate('/signin')
+            }} variant="ghost" className="text-sm">
+              Log In
             </Button>
             <Button onClick={()=>{
                 navigate('/signup')                
@@ -49,7 +50,7 @@ export default function HomePage() {
                 <div className="space-x-4">
                   <Button onClick={()=>{
                     navigate('/signin')
-                  }}>Sign In</Button>
+                  }}>Log In</Button>
                   <Button variant="outline">Learn More</Button>
                 </div>
               </div>
