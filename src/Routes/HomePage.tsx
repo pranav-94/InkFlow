@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { GithubIcon } from "lucide-react";
 import { Button } from "@/Components/ui/button";
 
 export default function HomePage() {
